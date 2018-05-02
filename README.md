@@ -35,3 +35,7 @@ We recommend that the `maker` and `checker` modes are run in reasonably separate
 ## Deployment
 
 TODO
+
+## Tests
+
+Tests are run via `rspec`. VCR is used whenever talking to a blockchain node, and these must be re-recorded when the spec or the code is changed.
