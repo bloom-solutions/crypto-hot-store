@@ -4,7 +4,7 @@ This hot wallet creates an environment, with customizable checks and balances, t
 
 ## How It Works
 
-This utilises two of two (at least -- could be three but more would make it less secure) multisig. The application is meant to run in as separate instances: one as a `maker`, and one as a `checker`.
+This utilises two of two (at least -- could be three but more would make it less secure) multisig. The application is meant to run as two separate instances: one as a `maker`, and one as a `checker`.
 
 The `maker`:
 
