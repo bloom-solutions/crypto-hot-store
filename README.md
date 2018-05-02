@@ -9,7 +9,7 @@ This utilises two of two (at least -- could be three but more would make it less
 The `maker`:
 
 - is the instance that receives payment instructions from the app that wants the payment to be made
-- has one of private keys used to spend funds
+- has one of the private keys used to spend funds
 - knows the total balance in the wallet, per cryptocurrency
 - notifies the admin when thresholds, which are customizable, are reached (i.e. bitcoin wallet has less than 2 bitcoins)
 - notifies the admin if a withdrawal is larger than the amount available in the wallet (i.e. user wants to withdraw 1 bitcoin but only 0.9 is available)
